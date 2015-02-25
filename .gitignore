@@ -1,13 +1,5 @@
-$ git status
-# Untracked files:
-
-# ignore target repository
-vi /MvnRepo/target/.git/info/exclude
-# ignore class files,
 *.class
-# ignore iml files,
-*.iml
-# ignore .idea repository,
-vi /MvnRepo/.idea/.git/info/exclude
-
-$ git status
+/target
+.settings
+.classpath
+.project
